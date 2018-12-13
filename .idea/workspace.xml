@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec495f02-0a4f-4d27-a4d9-456fc370d4c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myCa.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lanmo/dssl/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lanmo/dssl/SslContextFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lanmo/dssl/client/NetClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lanmo/dssl/client/SslClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lanmo/dssl/client/SslClientInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lanmo/dssl/server/LocalSslHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lanmo/dssl/server/NetServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lanmo/dssl/server/SslServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lanmo/dssl/server/SslServerInitializer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lanmo/dssl/server/SslServerInitializer.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,14 +61,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NetServer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NetServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lanmo/dssl/server/NetServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="171">
+              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="72">
+                <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -164,6 +168,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lanmo/dssl/SslContextFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lanmo/dssl/server/NetServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lanmo/dssl/client/NetClient.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -325,15 +330,16 @@
       <workItem from="1544510338978" duration="300000" />
       <workItem from="1544510764240" duration="219000" />
       <workItem from="1544511376144" duration="19309000" />
-      <workItem from="1544709402442" duration="378000" />
+      <workItem from="1544709402442" duration="834000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33651000" />
+    <option name="totallyTimeSpent" value="34107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1680" height="960" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -345,10 +351,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994664" weight="0.3362162" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3719583" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3719583" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.2008547" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.2008547" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info id="Structure" order="1" sideWeight="0.50053936" side_tool="true" weight="0.19850586" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -547,11 +553,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lanmo/dssl/server/NetServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="171">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="72">
+            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
