@@ -18,7 +18,6 @@ public class NetClient {
     private static final int PORT = Integer.valueOf(System.getProperty("port","9999"));
     private static final String certPath= System.getProperty("certPath","/home/myCa/nclient/client.cer");
     private static final String keyPath= System.getProperty("keyPath","/home/myCa/nclient/client.pem");
-    private static final String rootCrt= System.getProperty("rootCrt","/home/myCa/ca/ca.cer");
 
 
     public static void main(String[] args) {
@@ -38,7 +37,7 @@ public class NetClient {
         client.group(group)
                 .channel(NioSocketChannel.class)
                 .handler(new SslClientInitializer(SslContextFactory.createClientSslContext(certPath,
-                        keyPath,rootCrt), host, port));
+                        keyPath), host, port));
 
         Channel ch = client.connect(host,port).sync().channel();
         ChannelFuture lastWriteFuture = null;

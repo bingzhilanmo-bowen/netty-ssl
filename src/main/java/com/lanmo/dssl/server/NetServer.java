@@ -12,10 +12,8 @@ import io.netty.handler.ssl.SslContext;
 public class NetServer {
     private static final String certPath= System.getProperty("certPath","/home/myCa/server/server.cer");
     private static final String keyPath= System.getProperty("keyPath","/home/myCa/server/server.pem");
-    private static final String rootCrt= System.getProperty("rootCrt","/home/myCa/ca/ca.cer");
-
     public static void main(String[] args) throws Exception {
-        SslContext sslCtx = SslContextFactory.createServerSslContext(certPath,keyPath,rootCrt);
+        SslContext sslCtx = SslContextFactory.createServerSslContext(certPath,keyPath);
         EventLoopGroup bossGroup = new NioEventLoopGroup(1);
         EventLoopGroup workerGroup = new NioEventLoopGroup();
         try {

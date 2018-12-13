@@ -34,9 +34,9 @@ public class SslClientInitializer extends ChannelInitializer<SocketChannel> {
         ChannelPipeline pipeline = ch.pipeline();
 
         SslHandler sslHandler = sslCtx.newHandler(ch.alloc(),host,port);
-        // ssl parameters
+        // Ssl 参数，这里主要是做了SNI，通过添加SNI参数可以通过这个参数做SNI的访问控制，server端验证这个参数就能做控制
         List<SNIServerName> sni = new ArrayList<SNIServerName>();
-        sni.add(new SNIHostName("bowen1"));
+        sni.add(new SNIHostName("bowen"));
         SSLParameters sslParameters = sslHandler.engine().getSSLParameters();
         sslParameters.setServerNames(sni);
         sslHandler.engine().setSSLParameters(sslParameters);
